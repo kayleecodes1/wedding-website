@@ -101,7 +101,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     padding: 0;
-    margin: 1em 0 6em 0;
+    margin: 1em 0 1em 0;
 }
 
 .hero__detail-item {
@@ -116,6 +116,23 @@ p {
 
 .hero__detail-item:last-child::after {
     content: '';
+}
+
+.hero__rsvp-holder {
+    text-align: center;
+    margin: 2em 0 6em 0;
+}
+
+.hero__rsvp {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #09B6D4;
+    padding: 0.8em 1.8em;
+    cursor: pointer;
 }
 
 .wedding-details {
