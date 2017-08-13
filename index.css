@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,600,700|Assistant:300,400,600');
+
+@font-face {
+    font-family: 'Black Jack';
+    src: url('assets/fonts/blackjack/blackjack-webfont.eot');
+    src: url('assets/fonts/blackjack/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/blackjack/blackjack-webfont.woff2') format('woff2'),
+         url('assets/fonts/blackjack/blackjack-webfont.woff') format('woff'),
+         url('assets/fonts/blackjack/blackjack-webfont.ttf') format('truetype'),
+         url('assets/fonts/blackjack/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: 'Assistant', serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.section {
+    margin: 0 0 5em 0;
+}
+
+.section--full {
+    margin: 0;
+}
+
+.section__heading {
+    position: relative;
+    font-family: 'Assistant';
+    font-weight: 600;
+    font-size: 1.3em;
+    letter-spacing: 0.15em;
+    color: #09B6D4;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2em 0 2em 0;
+}
+
+.section__heading::before,
+.section__heading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background: #09B6D4;
+}
+
+.section__heading::before {
+    right: calc(50% + 200px); left: 0;
+}
+
+.section__heading::after {
+    right: 0; left: calc(50% + 200px);
+}
+
+.hero {
+    width: 100%;
+    color: #FFF;
+    background: url('assets/hero-bg.png') #1A1117 center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero__names {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1;
+    color: #09B6D4;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+.hero__graphic {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 6em auto 1em auto;
+}
+
+.hero__details {
+    display: block;
+    width: 100%;
+    list-style: none;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 1em 0 6em 0;
+}
+
+.hero__detail-item {
+    display: inline-block;
+}
+
+.hero__detail-item::after {
+    content: '/';
+    font-size: 17px;
+    margin: 0 16px;
+}
+
+.hero__detail-item:last-child::after {
+    content: '';
+}
+
+.wedding-details {
+
+}
+
+.wedding-details__charles-river-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.wedding-details__address {
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.wedding-details__info {
+    font-size: 1em;
+}
+
+.wedding-details__times {
+    font-size: 1em;
+}
+
+.wedding-details__transportation-heading {
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 2.5em 0 0 0;
+}
+
+.wedding-details__transportation-info {
+    margin: 0;
+}
+
+.how-we-met {
+    width: 100%;
+    color: #FFF;
+    background: url('assets/how-we-met-bg.png') #1A1117 center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.how-we-met__content {
+    width: 40%;
+    max-width: 100%;
+    font-size: 300;
+    text-align: justify;
+    margin: 8em 0;
+}
+
+.how-we-met__heading {
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #09B6D4;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0;
+}
+
+.accomodations__westin-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.accomodations__booking-holder {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.accomodations__booking-button {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #09B6D4;
+    padding: 0.8em 1.8em;
+    cursor: pointer;
+}
+
+.accomodations__booking-button:hover,
+.accomodations__booking-button:active {
+    opacity: 0.8;
+}
+
+.accomodations__help {
+    font-size: 0.8em;
+}
+
+.save-the-date {
+    width: 100%;
+    color: #FFF;
+    background: url('assets/save-the-date-bg.png') #1A1117 center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.save-the-date__content {
+    margin: 10em 0;
+}
+
+.save-the-date__label {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 1.6em;
+    line-height: 0.8;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 0.4em 0;
+}
+
+.save-the-date__date {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    line-height: 0.8;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.registry__content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.registry__button-holder {
+    text-align: center;
+}
+
+.registry__button {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #09B6D4;
+    padding: 0.8em 1.8em;
+    margin: 2em 0;
+    cursor: pointer;
+}
+
+.registry__button:hover,
+.registry__button:active {
+    opacity: 0.8;
+}
+
+.registry__help {
+    font-size: 0.8em;
+}
+
+.final {
+    background: #09B6D4;
+}
+
+.final__message {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.4;
+    color: #FFF;
+    margin: 2em 0;
+}
+
+.final__message p {
+    text-align: center;
+}
